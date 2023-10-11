@@ -20,17 +20,17 @@ static void Octave()
         ConsoleKeyInfo key = Console.ReadKey();
         if (key.Key == ConsoleKey.F1)
         {
-            Console.WriteLine("    Первая октава");
+            Console.WriteLine("\n Первая октава");
             dopOctave = FirstOctave;
         }
         else if (key.Key == ConsoleKey.F2)
         {
-            Console.WriteLine("    Вторая октава");
+            Console.WriteLine("\n Вторая октава");
             dopOctave = SecondOctave;
         }
         else if (key.Key == ConsoleKey.F3)
         {
-            Console.WriteLine("    Третья октава");
+            Console.WriteLine("\n Третья октава");
             dopOctave = ThirdOctave;
         }
         Zvuk(key, dopOctave);
